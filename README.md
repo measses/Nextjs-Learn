@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js ve Tailwind CSS Örnekleri
 
-## Getting Started
+# Next.js ve Tailwind CSS Örnekleri
 
-First, run the development server:
+Bu proje, **Next.js** ve **Tailwind CSS** kullanarak web geliştirme konseptlerini öğrenmek ve göstermek amacıyla oluşturulmuştur. Proje, temel düzeyde stil ve düzenlemelerden başlayarak daha karmaşık düzenler ve stillere kadar geniş bir yelpazeyi kapsayan örnekler sunmaktadır. Bu örnekler, geliştiricilerin Next.js ve Tailwind CSS'in gücünü anlamalarına yardımcı olacak şekilde düzenlenmiştir.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Google Fonts Kullanımı
+Google Fonts ile özel fontlar eklemeyi öğrenin.
+- [Google Fonts Kullanımı](./app/typography/google-fonts/page.tsx)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Renk Özelleştirme
+Tailwind CSS ile özel renkleri nasıl ekleyip kullanabileceğinizi öğrenin.
+- [Renk Özelleştirme](./app/styling/colors/page.tsx)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Flexbox Örnekleri
+Flexbox kullanarak esnek ve duyarlı düzenler oluşturmayı öğrenin.
+- [Flexbox Örnekleri](./app/layout/flexbox/page.tsx)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Grid Örnekleri
+CSS Grid kullanarak gelişmiş ızgara düzenleri oluşturun.
+- [Grid Örnekleri](./app/layout/grid/page.tsx)
 
-## Learn More
+## Gradyanlar
+Gradyan arka planlar ve geçiş efektleri oluşturmayı öğrenin.
+- [Gradyanlar](./app/styling/gradients/page.tsx)
 
-To learn more about Next.js, take a look at the following resources:
+## Karma Düzen Örneği
+Flexbox ve Grid'i bir arada kullanarak karma düzenler oluşturun.
+- [Karma Düzen Örneği](./app/layout/mixed-layout/page.tsx)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Flex ve Grid Özellikleri
+Flex ve Grid özelliklerini kullanarak ileri düzey düzenler oluşturun.
+- [Flex ve Grid Özellikleri](./app/layout/flex-and-grid-features/page.tsx)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Ekran ve Responsive Özellik
+Ekran boyutlarına göre uyumlu düzenler oluşturmayı öğrenin.
+- [Ekran ve Responsive Özellik](./app/screens/page.tsx)
