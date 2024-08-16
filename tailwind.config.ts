@@ -1,40 +1,44 @@
-// tailwind.config.ts - Tailwind CSS konfigürasyon dosyası
-
 import type { Config } from "tailwindcss";
 
-// Tailwind CSS konfigürasyonu için ayarlar
 const config: Config = {
-  // Tailwind CSS'in hangi dosyalarda kullanılacağını belirten içerik yolları
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}", // Sayfa bileşenlerini içeren dosyalar
-    "./components/**/*.{js,ts,jsx,tsx,mdx}", // Diğer bileşen dosyaları
-    "./app/**/*.{js,ts,jsx,tsx,mdx}", // Uygulama genelindeki dosyalar
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
-    // Tema ayarlarını genişletme
     extend: {
-      // Konteyner bileşenlerine varsayılan padding ekleme
       container: {
+        center: true,
         padding: "2rem",
       },
-      // Özel renk tanımlamaları
       colors: {
-        mysage: "#CCD5AE", // Adaçayı yeşili
-        mybeige: "#E0E5B6", // Bej
-        mypastel: "#FAEDCE", // Pastel sarı
-        mylight: "#FEFAE0", // Açık sarı
+        mysage: {
+          DEFAULT: "#CCD5AE",
+          dark: "#A0A88B", // Dark mode için daha koyu ton
+        },
+        mybeige: {
+          DEFAULT: "#E0E5B6",
+          dark: "#B4B98F", // Dark mode için daha koyu ton
+        },
+        mypastel: {
+          DEFAULT: "#FAEDCE",
+          dark: "#C8BEA6", // Dark mode için daha koyu ton
+        },
+        mylight: {
+          DEFAULT: "#FEFAE0",
+          dark: "#CCCAB4", // Dark mode için daha koyu ton
+        },
       },
-      // Arka plan resimleri için özel tanımlamalar
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))", // Radial gradyan
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))", // Konik gradyan
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  // Eklenmiş Tailwind CSS eklentileri (bu projede yok)
   plugins: [],
 };
 
-// Tailwind CSS konfigürasyonunu varsayılan olarak dışa aktarma
 export default config;
