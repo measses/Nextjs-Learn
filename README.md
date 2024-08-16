@@ -1,7 +1,5 @@
 # Next.js ve Tailwind CSS Örnekleri
 
-# Next.js ve Tailwind CSS Örnekleri
-
 Bu proje, **Next.js** ve **Tailwind CSS** kullanarak web geliştirme konseptlerini öğrenmek ve göstermek amacıyla oluşturulmuştur. Proje, temel düzeyde stil ve düzenlemelerden başlayarak daha karmaşık düzenler ve stillere kadar geniş bir yelpazeyi kapsayan örnekler sunmaktadır. Bu örnekler, geliştiricilerin Next.js ve Tailwind CSS'in gücünü anlamalarına yardımcı olacak şekilde düzenlenmiştir.
 
 ## Google Fonts Kullanımı
