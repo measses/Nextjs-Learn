@@ -15,8 +15,8 @@ export default function MixedLayoutExample() {
       >
         Flexbox ve Grid Kombinasyonu
       </h1>
-      {/* INFO: Bu sayfada Pacifico fontu kullanıldı. Bu font, Google Fonts'tan alındı ve bu sayfada kullanıldı. */}
-
+      // INFO: Bu sayfada Pacifico fontu kullanıldı. Bu font, Google Fonts'tan
+      alındı ve bu sayfada kullanıldı.
       {/* Flex container: İki öğeyi yatay olarak hizalar */}
       <div className="flex space-x-4 mb-8">
         <div className="flex-1 bg-blue-500 text-white p-6 rounded-lg shadow-lg dark:shadow-gray-700 dark:bg-blue-600">
@@ -26,7 +26,6 @@ export default function MixedLayoutExample() {
           Flex Item 2
         </div>
       </div>
-
       {/* Grid container: 2x2 ızgara düzeni oluşturur */}
       <div className="grid grid-cols-2 gap-4">
         <div className="bg-green-500 text-white p-6 rounded-lg shadow-lg dark:shadow-gray-700 dark:bg-green-600">

@@ -3,7 +3,6 @@ import { BackButton } from "../ui/back-button";
 export default function ScreensExample() {
   return (
     <div className="p-8 bg-gray-100 dark:bg-gray-900 min-h-screen text-gray-900 dark:text-gray-100">
-      {/* Geri butonunu sayfanın başına ekleyin */}
       <BackButton />
 
       <h1 className="text-3xl font-bold text-center mb-8 dark:text-white">

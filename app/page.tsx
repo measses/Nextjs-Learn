@@ -140,6 +140,20 @@ export default function Home() {
               </p>
             </div>
           </Link>
+          {/* Kart 8: Blog Yazıları */}
+          <Link href="/blog">
+            <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl dark:hover:shadow-gray-700 hover:bg-blue-50 dark:hover:bg-gray-700 transition-all duration-300 h-58 flex flex-col justify-between">
+              <div className="flex items-center space-x-4">
+                <FaRocket className="text-indigo-500 text-3xl" />
+                <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
+                  Blog Yazıları
+                </h2>
+              </div>
+              <p className="mt-4 text-gray-600 dark:text-gray-300">
+                Dinamik Route'lar ile oluşturulan blog yazılarını keşfedin.
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
